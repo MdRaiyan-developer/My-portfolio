@@ -1,0 +1,253 @@
+.{
+margin:  0;
+padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(242, 113, 14);
+    width: 20vw;
+    height: 130vh;
+    color: aliceblue;
+    font-size:xx-large;
+    font-display: flex;
+
+}
+.sidebar nav{
+    padding: 45px;
+}
+ .sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+ }
+
+ .sidebar nav li a{
+    text-decoration: none;
+    color:black;
+ }
+
+.main{
+    width:90vw;
+}
+
+.container{
+display: flex;
+background-color:black;
+border: orangered;
+
+
+}
+
+.infocontainer{
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color:white;
+    
+}
+  .devInfo{
+   display:flex;
+    justify-content: center;
+    flex-direction: column;
+     animation-name: colorAnimate;
+     animation-duration: 3s;
+     animation-timing-function: case-in;
+     animation-delay: 0;
+     animation-iteration-count: infinite;
+     text-align: right;
+     padding-top: 40px;
+    
+  }
+  @keyframes colorAnimate{
+  from{color:orangered};
+  to{color:white};
+  }
+    
+
+.hello{
+    font-size: 65px;
+    padding-right: 20px ;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size:40px;
+}
+.moreabout{
+font-size: 22px;
+margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+    padding-bottom: 50px;
+}
+
+
+.buttons button{
+padding: 9px 144px;
+border-radius: 23px;
+color: white;
+background-color: rgb(242, 110, 10);
+font-weight: bold;
+font-size: 23px;
+margin:0 3px;
+cursor: pointer;
+}
+ .buttons button:hover{
+    background-color: white;
+    color: rgb(255, 116, 30);
+
+ }
+ .btn{
+    font-size:17px;
+    background-color:rgb(237, 124, 19) ;
+    font-weight: bold;
+    
+
+
+
+ }
+ .contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+ }
+
+
+ 
+
+ 
+ 
+ 
+
+ .contactform h1{
+    text-align: center;
+    padding: 12px 0;
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+ }
+
+ .contactform form div{
+    padding: 10px 0;
+    display: flex;
+     flex-direction: column;
+     color:white;
+     font-weight: bold;
+     font-size: 25px;
+ }
+ .contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    color:black;
+    font-weight: bold;
+ }
+ 
+  
+ #emailhelp{
+    font-size: 12px;
+    color:orangered;
+    margin: 0 5px;
+    font-weight: bolder;
+ }
+ #form-check {
+    flex-direction: row;
+
+
+ }
+ #form-check input{
+    width: 24px;
+    margin: 3px 0;
+ }
+
+    .devInfo img{
+   max-width: 140px;
+   border-radius: 50%;
+   border: .25rem solid var(--main-color);
+   margin-bottom: .8rem;
+
+
+
+   
+ }
+ .introcontainer{
+   color:white;
+   
+
+
+
+ }
+.introcontainer h1{
+   padding-left:250px;
+   padding-top: 100px;
+   padding-right: 500px;
+   color: rgb(125, 52, 125);
+   font-size:xx-large;
+
+
+}
+.introcontainer p{
+   padding-left: 130px;
+   padding-right: 600px;
+   padding-top: 20px;
+   text-align: center;
+   font-size:bolder;
+   color: white;
+   justify-content: center;
+}
+.section img{
+   height:40%;
+   float:right;
+   padding-right: 50px;
+   padding-top: 100px;
+
+   
+}
+.skill {
+   margin-bottom: 40px;
+ }
+ .skill-name {
+   font-weight:bolder;
+   margin-bottom: 10px;
+   color: blanchedalmond;
+ }
+ .skill-bar {
+   height: 50px;
+   background-color: #ddd;
+   border-radius: 40px;
+   position: relative;
+   overflow: hidden;
+   animation: animateSkill 2s forwards;
+   transform-origin: left;
+ }
+ .skill-bar-inner {
+   height: 100%;
+   background-color:orangered;
+   width: 0;
+   animation: fillSkill 2s forwards;
+ }
+ @keyframes animateSkill {
+   0% {
+     opacity: 0;
+     transform: scaleX(0);
+   }
+   100% {
+     opacity: 1;
+     transform: scaleX(8);
+   }
+ }
+ @keyframes fillSkill {
+   0% {
+     width: 0;
+   }
+ }
+
+
+
+ 
